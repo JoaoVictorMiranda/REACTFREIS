@@ -1,0 +1,37 @@
+.container_header {
+    display: flex;
+    background-color: #6278F7;
+    color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding: 1.2rem;
+
+    .container_logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 15%;
+    }
+
+    .container_links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 15%;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        ul>li {
+            list-style: none;
+
+            a {
+                color: #f3f3f3;
+                text-decoration: none;
+            }
+        }
+    }
+}
