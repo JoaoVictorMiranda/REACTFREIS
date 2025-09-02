@@ -1,0 +1,21 @@
+.container_cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 0 3%;
+
+
+    .Voltar {
+        font-size: 2rem;
+
+        a {
+            color: black;
+        }
+    }
+
+    .titulo {
+        font-family: var(--primary-font);
+    }
+}

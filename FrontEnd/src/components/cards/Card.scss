@@ -1,0 +1,30 @@
+.container_card {
+    width: 215px;
+    height: 158px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .color {
+        background-color: aqua;
+        height: 60px;
+        width: 60px;
+        border-radius: 12px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-family: var(--primary-font);
+        font-size: 14px;
+        font-style: bold;
+    }
+
+    .description {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-style: regular;
+        font-size: 14px;
+    }
+}
